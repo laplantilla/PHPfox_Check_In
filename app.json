@@ -1,0 +1,12 @@
+{
+  "id": "Vieber_Check_In",
+  "name": "Vieber: Check-In",
+  "version": 1.0,
+  "icon": "",
+  "js": [
+    "http://localhost/openshift/vieber/assets/check-in/autoload.js"
+  ],
+  "head": [
+    "<link rel=\"stylesheet\" href=\"http://localhost/openshift/vieber/assets/check-in/autoload.css\">"
+  ]
+}
