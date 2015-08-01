@@ -4,9 +4,9 @@
   "version": 1.0,
   "icon": "",
   "js": [
-    "http://localhost/openshift/vieber/assets/check-in/autoload.js"
+    "https://vieber-moxi9.rhcloud.com/assets/check-in/autoload.js?v={{ version }}"
   ],
   "head": [
-    "<link rel=\"stylesheet\" href=\"http://localhost/openshift/vieber/assets/check-in/autoload.css\">"
+    "<link rel=\"stylesheet\" href=\"https://vieber-moxi9.rhcloud.com/assets/check-in/autoload.css?v={{ version }}\">"
   ]
 }

@@ -7,7 +7,7 @@ if (isset($_POST['vieber_geo_input'])) {
 		'auth_id' => $app->auth['id'],
 		'auth_key' => $app->auth['key']
 	]);
-	$hook = new \Core\Webhook('feed.service_process_add__end2', 'http://localhost/openshift/vieber/apps/check-in/webhooks/');
+	$hook = new \Core\Webhook('feed.service_process_add__end2', 'https://vieber-moxi9.rhcloud.com/apps/check-in/webhooks/');
 
 	if (isset($hook->response->id)) {
 		$content = json_encode(['vieber_geo_id' => $hook->response->id]);
