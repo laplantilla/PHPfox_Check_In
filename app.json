@@ -1,7 +1,7 @@
 {
     "id": "Vieber_Check_In",
     "name": "Vieber: Check-In",
-    "version": 1.1,
+    "version": 1.2,
     "icon": "\/\/d2h79mkp7etn4r.cloudfront.net\/icon\/2015\/08\/43c3f04ac99b8b1f85a6cae818991932.png",
     "js": [
         "https:\/\/vieber-moxi9.rhcloud.com\/assets\/check-in\/autoload.js?v={{ version }}"
