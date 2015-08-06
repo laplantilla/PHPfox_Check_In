@@ -7,6 +7,6 @@ if (isset($aOut['_content'])) {
 			$aOut['app_content'] = '';
 		}
 
-		$aOut['app_content'] .= '<div class="vieber-geo-map" data-map-id="' . $decode->vieber_geo_id . '"></div><script>(function(){ var s = document.createElement(\'script\'); s.type = \'application/javascript\'; s.src = \'https://vieber-moxi9.rhcloud.com/apps/check-in/?id=' . $decode->vieber_geo_id . '&client=' . PHPFOX_LICENSE_ID . '\'; document.head.appendChild(s); })();</script>';
+		$aOut['app_content'] .= '<div class="vieber-geo-map" data-map-id="' . $decode->vieber_geo_id . '"></div><script>(function(){ var s = document.createElement(\'script\'); s.type = \'application/javascript\'; s.src = \'https://php-moxi9.rhcloud.com/apps/check-in/?id=' . $decode->vieber_geo_id . '&client=' . PHPFOX_LICENSE_ID . '\'; document.head.appendChild(s); })();</script>';
 	}
 }
